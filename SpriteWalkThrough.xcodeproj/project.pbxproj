@@ -21,6 +21,7 @@
 		B5E1B21818537E0F00AED5C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1B1FA18537E0E00AED5C6 /* UIKit.framework */; };
 		B5E1B22018537E0F00AED5C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5E1B21E18537E0F00AED5C6 /* InfoPlist.strings */; };
 		B5E1B22218537E0F00AED5C6 /* SpriteWalkThroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E1B22118537E0F00AED5C6 /* SpriteWalkThroughTests.m */; };
+		B5E1B22D185384F500AED5C6 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E1B22C185384F500AED5C6 /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B5E1B21D18537E0F00AED5C6 /* SpriteWalkThroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkThroughTests-Info.plist"; sourceTree = "<group>"; };
 		B5E1B21F18537E0F00AED5C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5E1B22118537E0F00AED5C6 /* SpriteWalkThroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkThroughTests.m; sourceTree = "<group>"; };
+		B5E1B22B185384F500AED5C6 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		B5E1B22C185384F500AED5C6 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				B5E1B20C18537E0E00AED5C6 /* SpriteViewController.m */,
 				B5E1B20E18537E0E00AED5C6 /* Images.xcassets */,
 				B5E1B1FD18537E0E00AED5C6 /* Supporting Files */,
+				B5E1B22B185384F500AED5C6 /* HelloScene.h */,
+				B5E1B22C185384F500AED5C6 /* HelloScene.m */,
 			);
 			path = SpriteWalkThrough;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E1B20318537E0E00AED5C6 /* main.m in Sources */,
+				B5E1B22D185384F500AED5C6 /* HelloScene.m in Sources */,
 				B5E1B20718537E0E00AED5C6 /* SpriteAppDelegate.m in Sources */,
 				B5E1B20D18537E0E00AED5C6 /* SpriteViewController.m in Sources */,
 			);
